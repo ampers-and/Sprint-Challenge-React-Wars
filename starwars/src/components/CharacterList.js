@@ -10,7 +10,7 @@ const CharacterList = () => {
 
   useEffect(() => {
     axios
-      .get(`https://swapi.co/api/people`)
+      .get(`https://swapi.co/api/people/`)
 
       .then(response => {
         console.log("Star Wars Characters", response.data.results);
